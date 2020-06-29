@@ -1,0 +1,278 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Hind", sans-serif;
+    font-size: large;
+}
+::selection {
+    color: white;
+    background: red;
+}
+html {
+    scroll-behavior: smooth;
+}
+header,
+.header {
+    width: 100%;
+    float: left;
+}
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.col-md-3 {
+    width: 25%;
+    float: left;
+    padding: 10px;
+}
+.col-md-6 {
+    width: 50%;
+    float: left;
+    padding: 10px;
+}
+.logo {
+}
+.logo img {
+    width: 50%;
+    display: block;
+}
+.main-menu {
+}
+.main-menu ul {
+}
+.main-menu ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 20px 10px;
+    margin: 10px;
+}
+.main-menu ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.social-menu {
+}
+.social-menu ul {
+}
+.social-menu ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 5px 12px;
+    margin: 25px 0;
+}
+.social-menu ul li:last-child {
+    padding: 0;
+}
+
+.social-menu ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+}
+.social-menu ul li:nth-child(1) {
+    background-color: #0089ff;
+}
+.social-menu ul li:nth-child(2) {
+    background-color: red;
+}
+.social-menu ul li:nth-child(3) {
+    background-color: green;
+}
+.social-menu ul li:nth-child(4) {
+    background-color:gray;
+}
+section.header {
+    background-image: url("../images/finance.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.market {
+    width: 50%;
+    padding: 80px 50px;
+    background: #e0e0e0a3;
+    margin: 100px 0;
+}
+.market h1 {
+    font-size: 60px;
+    text-align: center;
+}
+.market p {
+    margin: 20px 0px;
+}
+.become .lender,
+.become .borrower {
+    text-decoration: none;
+    padding: 10px 20px;
+    background: #369e17;
+    display: inline-block;
+    border-radius: 2px;
+    color: #00ff47;
+    transition: 0.2s ease-in-out;
+}
+.become .borrower {
+    float: right;
+}
+.become .lender:hover,
+.become .borrower:hover {
+    color: #fff;
+    cursor: pointer;
+    background: #126d88;
+}
+section.works,
+section.investment,
+section.blogs,
+section.success,
+section.trust,
+section.mention {
+    width: 100%;
+    float: left;
+}
+.works .container > h2,
+.investment .container > h2,
+.blogs .container .blog-title > h2 {
+    text-align: center;
+    font-size: 40px;
+    text-transform: uppercase;
+    overflow: hidden;
+    margin-top: 50px;
+}
+.divider {
+    border-top: 6px solid #369e17;
+    width: 150px;
+    margin: 0 auto;
+    border-radius: 15px;
+}
+.image {
+    width: 85px;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 50%;
+    background: #ff004b;
+    text-align: center;
+    height: 100%;
+}
+.image span {
+    width: 100%;
+    display: inline-block;
+    color: #fff;
+    font-size: 40px;
+}
+.workers {
+    margin: 70px 0;
+    overflow: hidden;
+}
+.desc {
+    padding: 20px;
+}
+.desc h3 {
+    text-align: center;
+    font-size: 30px;
+}
+.desc p {
+    margin: 20px 0;
+}
+.link {
+    text-align: center;
+}
+.link a {
+    text-decoration: none;
+    padding: 10px 20px;
+    background: #369e17;
+    display: inline-block;
+    border-radius: 2px;
+    color: #00ff47;
+    transition: 0.2s ease-in-out;
+}
+.link a:hover {
+    color: #fff;
+    cursor: pointer;
+    background: #126d88;
+}
+section.investment {
+    background: antiquewhite;
+}
+.invest,
+.loan {
+    padding: 40px 0;
+}
+.invest h2,
+.loan h2 {
+    text-align: center;
+
+    font-size: 30px;
+
+    color: #4caf50;
+}
+.invest p,
+.loan p {
+    padding: 20px;
+}
+.blog-post {
+    padding: 20px 0;
+}
+.blog-post h3 {
+    padding: 20px 10px;
+    text-align: center;
+    margin-top: 30px;
+}
+.blog-post h3 a {
+    text-decoration: none;
+    color: indianred;
+}
+.blog-post p {
+    padding: 0 10px;
+}
+.content {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+}
+section.success {
+    background: aliceblue;
+    padding: 30px 0;
+    position: relative;
+    margin: 40px 0;
+}
+.message {
+    position: absolute;
+    right: 0;
+    background: forestgreen;
+    padding: 5px 20px;
+    border-radius: 10px 0 0 0;
+    bottom: 0;
+}
+.message .icon a {
+    text-decoration: none;
+    color: #fff;
+}
+.message .icon a:hover {
+    color: red;
+}
+.mention {
+    background-color: #828282;
+}
+.information {
+    padding: 50px;
+    overflow: hidden;
+}
+.information h3 {
+    padding: 20px 10px;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 30px;
+    color: #fff;
+}
+.info {
+    width: 18%;
+    float: left;
+    /* background: forestgreen; */
+    margin: 10px;
+}
+.img-1,
+.img-2 {
+    width: 100%;
+    display: block;
+}
